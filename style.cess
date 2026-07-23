@@ -1,0 +1,449 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f9ff;
+    color:#1b2a4a;
+}
+
+header{
+    background:linear-gradient(135deg,#062b6f,#0b74d1);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header img{
+    width:70px;
+    margin-bottom:0;
+}
+
+header h1{
+    font-size:45px;
+    letter-spacing:2px;
+}
+
+header p{
+    font-size:20px;
+    margin:15px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#064a9b;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+
+section{
+    padding:40px 10%;
+    text-align:center;
+}
+
+h2{
+    color:#064a9b;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+
+section p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.card{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px #ccc;
+}
+
+
+.card h3{
+    color:#064a9b;
+    margin-bottom:10px;
+}
+
+
+ul{
+    list-style:none;
+    font-size:18px;
+    line-height:2;
+}
+
+
+#contact{
+    background:#eaf3ff;
+}
+
+
+footer{
+    background:#062b6f;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+
+@media(max-width:700px){
+
+header h1{
+    font-size:32px;
+}
+
+.products{
+    flex-direction:column;
+    align-items:center;
+}
+
+section{
+    padding:30px 5%;
+}
+
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 5px 15px #999;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+form input,
+form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+form textarea{
+    height:120px;
+}
+form button{
+    background:#064a9b;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#062b6f;
+}
+
+/* Premium Header Design */
+
+header{
+    background:linear-gradient(135deg,#063970,#0b8bd3);
+    color:white;
+    padding-bottom:40px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo img{
+    width:70px;
+    height:auto;
+}
+
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:17px;
+}
+
+
+.menu a:hover{
+    text-decoration:underline;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 10%;
+}
+
+
+.hero h1{
+    font-size:45px;
+    line-height:1.3;
+}
+
+
+.hero p{
+    font-size:20px;
+    margin:25px 0;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+    margin-left:10px;
+}
+
+
+.highlights{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:20px 8%;
+}
+
+.highlights div{
+    background:white;
+    color:#063970;
+    padding:25px;
+    width:250px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.highlights h3{
+    margin-bottom:10px;
+}
+@media(max-width:700px){
+
+nav{
+    flex-direction:column;
+}
+
+.menu{
+    margin-top:20px;
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:70px;
+}
+
+.logo span{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+}
+
+
+.highlights{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.highlights div{
+    background:white;
+    color:#064a9b;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+
+    animation:slideUp 1s ease;
+}
+
+
+@keyframes slideUp{
+
+from{
+    opacity:0;
+    transform:translateY(40px);
+}
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
+
+.hero{
+    display:block !important;
+    text-align:center;
+    padding:70px 10% !important;
+    color:white;
+}
+
+.hero h1{
+    display:block;
+    font-size:45px;
+    margin:20px 0;
+    color:white;
+}
+
+.hero p{
+    display:block;
+    font-size:20px;
+    color:white;
+    margin:20px 0;
+}
+
+.highlights{
+    display:flex !important;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+
+.highlights div{
+    display:block !important;
+    background:white;
+    color:#064a9b;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    animation:showBox 1s ease;
+}
+
+
+@keyframes showBox{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+header{
+    min-height:700px !important;
+    background:linear-gradient(135deg,#063970,#0b8bd3) !important;
+    color:white !important;
+    display:block !important;
+}
+
+
+.hero{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    text-align:center !important;
+    padding:80px 10% !important;
+}
+
+
+.hero h1{
+    display:block !important;
+    color:white !important;
+    font-size:45px !important;
+}
+
+}
+
+
+.hero p{
+    display:block !important;
+    color:white !important;
+}
+
+
+.highlights{
+    display:flex !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    justify-content:center !important;
+    gap:20px !important;
+}
+
+
+.highlights div{
+ display:block !important;
+    background:white !important;
+    color:#063970 !important;
+    padding:25px !important;
+    border-radius:15px !important;
+}

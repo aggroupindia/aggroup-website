@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aggroupindia.github.io/aggroup-website/sitemap.xml

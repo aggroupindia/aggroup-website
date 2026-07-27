@@ -353,29 +353,41 @@ Quick support through Phone, Email and WhatsApp.
 
 <h2>Contact Us</h2>
 
+<p class="contact-text">
 
-<form>
+Fill out the form below and our team will contact you shortly.
+</p>
 
+<form action="https://formspree.io/f/mojgyzwo" method="POST">
 
-<input type="text" placeholder="Your Name">
+<input type="text"
+name="name"
+placeholder="Your Name"
+required>
 
+<input type="tel"
+name="phone"
+placeholder="Mobile Number"
+required>
 
-<input type="email" placeholder="Email Address">
+<input type="email"
+name="email"
+placeholder="Email Address"
+required>
 
+<input type="text"
+name="product"
+placeholder="Product Required">
 
-<input type="tel" placeholder="Mobile Number">
-
-
-<input type="text" placeholder="Product Required">
-
-
-<textarea placeholder="Your Message"></textarea>
-
+<textarea
+name="message"
+rows="6"
+placeholder="Write Your Message"
+required></textarea>
 
 <button type="submit">
 Send Enquiry
 </button>
-
 
 </form>
 
